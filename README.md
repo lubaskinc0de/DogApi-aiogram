@@ -8,3 +8,7 @@ requirements:
 
 -> pip install aiogram
 -> pip install requests
+
+
+
+![Снимок экрана (120)](https://user-images.githubusercontent.com/100635212/167227223-877b3bb4-ed3b-43b5-86eb-e9d200994fe7.png)
