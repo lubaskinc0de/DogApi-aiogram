@@ -1,7 +1,7 @@
 from aiogram import Bot,Dispatcher,executor,types
 from dog_api.dog import DogApi
 
-bot = Bot(token='5128933135:AAGBbc-HXhpUjj7t8aLKqILukMEIbROekoE')
+bot = Bot(token='your_token')
 
 dp = Dispatcher(bot=bot)
 
