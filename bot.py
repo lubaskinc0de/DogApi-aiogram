@@ -5,11 +5,7 @@ bot = Bot(token='your_token')
 
 dp = Dispatcher(bot=bot)
 
-@dp.message_handler(commands=['start'])
-async def get_dog(message: types.Message):
-    await message.reply('я тут!')
-
-@dp.message_handler(commands=['dog'])
+@dp.message_handler(commands=['dogs'])
 async def get_dog(message: types.Message):
     await bot.send_photo(chat_id=message.chat.id,photo=DogApi.get_dog())
 
